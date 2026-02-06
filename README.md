@@ -15,11 +15,11 @@
  
 ## Comparative modeling of discrete regulators for thermal control in Python.
 
-Kochetkov Alexsey Alekseevich
-student, Department of Information Technologies and Systems,
-Vladivostok State University,
-Russian Federation, Vladivostok
-email: alexseykochetkov23@gmail.com
+- Kochetkov Alexsey Alekseevich
+- student, Department of Information Technologies and Systems,
+- Vladivostok State University,
+- Russian Federation, Vladivostok
+- email: alexseykochetkov23@gmail.com
 
 **Abstract**: In the modern technosphere, feedback systems act as the "central nervous system," ensuring precision where human reactions or simple algorithms fall short. From stabilizing drones in turbulent flows to controlling chemical reactors—regulation algorithms are at work everywhere. Among them, the PID controller remains the unconditional industrial standard. According to Honeywell data, over 97% of controllers in industries such as oil refining and pulp and paper use the PID algorithm precisely.
 This article presents a comprehensive analysis of control mechanisms — the fundamental logic of feedback. The key goal is to reveal the synergy of the P, I, and D components as tools for working with the system's present, past, and future states.
@@ -103,13 +103,13 @@ Figure 2. Schedule of the PI-regulator
 
 На рисунке 3 показан пропорционально-интегрально-дифференцирующий регулятор (ПИД -регулятор). Полный ПИД-регулятор дополнен дифференциальной составляющей, которая прогнозирует будущее поведение системы на основе скорости изменения ошибки. В задачах терморегулирования, обладающих значительной инерцией, дифференциальный компонент действует как «тормоз» или амортизатор, предотвращая резкие скачки. Моделирование показывает, что ПИД-регулятор обеспечивает наиболее качественный переходный процесс: он позволяет использовать более высокие коэффициенты усиления для быстрого прогрева, одновременно демпфируя колебания и минимизируя перерегулирование.
 
-![Рисунок 3. График работы ПИД-регулятора](figure/Pasted%20image%20260206183313.png)
+![Рисунок 3. График работы ПИД-регулятора](figure/Pasted%20image%2020260206183313.png)
 Рисунок 3. График работы ПИД-регулятора
 Figure 3. Schedule of the PID-regulator
 
 На 4 рисунке продемонстрированы все регуляторы в одном графике. Итоговый сравнительный анализ позволяет наглядно оценить вклад каждого компонента в качество терморегулирования.
 
-![Рисунок 4. Сравнительный график всех трех регуляторов](figure/Pasted%20image%20260206183317.png)
+![Рисунок 4. Сравнительный график всех трех регуляторов](figure/Pasted%20image%2020260206183317.png)
 Рисунок 4. Сравнительный график всех трех регуляторов
 Figure 4. Comparative drawing of all three regulators
 
