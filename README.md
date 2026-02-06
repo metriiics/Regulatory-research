@@ -25,7 +25,8 @@
 This article presents a comprehensive analysis of control mechanisms — the fundamental logic of feedback. The key goal is to reveal the synergy of the P, I, and D components as tools for working with the system's present, past, and future states.
 
 **Keywords**: PID controller, feedback, closed loop, setpoint, process variable, control error, proportional gain, integral gain, derivative gain, steady-state error, overshoot, integral windup, rise time, settling time, disturbance rejection, robustness, temperature control, signal filtering.
- 
+
+
 **Введение**
 
 Основа стабильности системы — концепция «замкнутого контура». В отличие от разомкнутых систем, которые действуют «вслепую», замкнутый контур постоянно анализирует результат действий. Для описания этого процесса мы используем четыре базовых термина:
